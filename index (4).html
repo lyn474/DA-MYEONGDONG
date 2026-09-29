@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>강남언니 ✕ 디에이의원 입점 혜택 제안서</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/pretendard.min.css">
+<style>
+:root{
+  --brand:#FF540F; --brand-soft:#FFF1EA; --ink:#1C1A19; --sub:#5E5955; --line:#ECE7E3;
+  --bg:#FFFFFF; --panel:#FAF8F6; --warn:#B3261E; --warn-soft:#FDF1F0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{font-family:Pretendard,"Pretendard Variable",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;word-break:keep-all;-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+.notice{background:var(--ink);color:#fff;font-size:13px;padding:10px 0}
+.notice .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.notice button{flex:none;background:var(--brand);color:#fff;border:0;border-radius:6px;padding:6px 12px;font:inherit;font-weight:600;cursor:pointer}
+.notice button:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+header{padding:64px 0 48px;border-bottom:1px solid var(--line)}
+.pair{font-size:15px;font-weight:600;color:var(--brand);margin-bottom:12px}
+h1{font-size:clamp(34px,6vw,52px);font-weight:800;letter-spacing:-.03em;line-height:1.15;margin-bottom:20px}
+.scope{font-size:17px;color:var(--sub)}
+.scope b{color:var(--ink)}
+
+section{padding:52px 0;border-bottom:1px solid var(--line)}
+.kicker{font-size:14px;font-weight:700;color:var(--brand);margin-bottom:6px}
+h2{font-size:26px;font-weight:750;letter-spacing:-.02em;margin-bottom:20px}
+p.lead{color:var(--sub);margin-bottom:24px;max-width:68ch}
+
+ol.steps{list-style:none;counter-reset:s;position:relative}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 26px 56px}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;display:grid;place-items:center}
+ol.steps li:not(:last-child)::after{content:"";position:absolute;left:17px;top:40px;bottom:4px;width:2px;background:var(--line)}
+ol.steps h3{font-size:17px;font-weight:700;margin:5px 0 4px}
+ol.steps p{color:var(--sub);font-size:15px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.box{background:var(--panel);border-radius:14px;padding:22px;display:flex;flex-direction:column}
+.box .tag{font-size:13px;font-weight:700;color:var(--brand);margin-bottom:6px}
+.box h3{font-size:19px;font-weight:750;margin-bottom:8px}
+.box p{font-size:15px;color:var(--sub)}
+.box .price{margin-top:auto;padding-top:14px;font-weight:700;font-size:16px;color:var(--ink)}
+.stat .v{font-size:20px;font-weight:750;margin:2px 0}
+.stat .k{font-size:13px;font-weight:600;color:var(--sub)}
+.stat .d{font-size:14px;color:var(--sub)}
+
+.callout{margin-top:18px;border-left:3px solid var(--brand);background:var(--brand-soft);padding:18px 20px;border-radius:0 12px 12px 0}
+.callout h4{font-size:16px;margin-bottom:8px}
+.callout p{font-size:15px;color:var(--ink)}
+.callout p+p{margin-top:8px}
+
+.box.off .tag{color:var(--sub)}
+.xmark{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--warn);background:var(--warn-soft);border-radius:999px;padding:3px 10px;margin-bottom:10px;align-self:flex-start}
+.must{margin-top:18px;background:var(--brand-soft);border-radius:12px;padding:16px 20px;font-size:15px}
+.must b{color:var(--brand)}
+.must p+p{margin-top:4px;color:var(--sub)}
+.kos{background:var(--panel);border-radius:14px;padding:26px}
+.kos p{font-size:16px}
+.kos p+p{margin-top:8px;color:var(--sub);font-size:15px}
+
+.warn{background:var(--warn-soft);border-radius:14px;padding:24px}
+.warn h3{color:var(--warn);font-size:16px;margin-bottom:12px}
+.warn ul{padding-left:20px}
+.warn li{font-size:15px;margin-bottom:6px}
+
+footer{padding:40px 0 56px;font-size:14px;color:var(--sub)}
+footer b{color:var(--ink)}
+footer .copy{margin-top:18px;font-size:12px}
+
+@media (max-width:560px){header{padding:44px 0 36px} section{padding:40px 0} h2{font-size:22px}}
+@media print{.notice button{display:none} section{break-inside:avoid-page} body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<div class="notice"><div class="wrap">
+  <span>🔒 Confidential · 본 제안서는 디에이의원 대상으로만 제공되는 특별 프로모션입니다. 외부 공유 시 혜택이 즉시 종료될 수 있으니 보안 유지를 부탁드립니다.</span>
+  <button type="button" onclick="window.print()">PDF 저장</button>
+</div></div>
+
+<div class="wrap">
+<header>
+  <div class="pair">강남언니 ✕ 디에이의원</div>
+  <h1>입점 혜택 제안서</h1>
+  <p class="scope"><b>강남언니 해외 5개국 입점 · 언니가이드 가입</b><br>일본 · 태국 · 미국 · 중국 · 대만</p>
+</header>
+
+<section>
+  <div class="kicker">프로모션 일정</div>
+  <h2>계약 완료 및 예상 타임라인</h2>
+  <p class="lead">강남언니 해외 입점(언니가이드 포함)을 진행하시는 조건입니다. 아래 순서대로 진행되며, 각 단계 일정은 국내 오픈 일정에 맞춰 담당 AM이 함께 조율해드립니다.</p>
+  <ol class="steps">
+    <li><h3>강남언니 한국 입점 계약</h3><p>의료기관 개설신고증명서(또는 개설허가증) · 사업자등록증이 필수로 필요합니다.</p></li>
+    <li><h3>한국 이벤트 등록</h3><p>국내 입점 직후 바로 이벤트를 신청해주시면 됩니다. 한국 이벤트는 <b>최대 5개까지 무료로 제작을 지원</b>해드리며, 병원에서 신청이 접수되어야 진행됩니다.</p></li>
+    <li><h3>국가별 입점 & 언니가이드 계약 체결</h3><p>일본 · 태국 · 미국 · 중국 · 대만 5개국 입점을 함께 진행합니다.</p></li>
+    <li><h3>국가별 이벤트 등록 · 10월 19일 주 목표</h3><p>한국 이벤트를 기반으로 강남언니에서 제작을 지원해드리며, 마찬가지로 신청이 필요합니다. 제작은 복붙 방식으로만 가능하고, 늦어도 10월 19일 주까지 국가별 최소 10개 등록을 목표로 진행합니다.</p></li>
+    <li><h3>인플루언서 지원 시작</h3><p>오픈 후 3개월 동안 월 1회 방문 지원이 진행됩니다.</p></li>
+  </ol>
+</section>
+
+<section>
+  <div class="kicker">혜택 1</div>
+  <h2>국가별 월정액 안내</h2>
+  <div class="grid">
+    <div class="box off">
+      <div class="tag">JAPAN</div>
+      <span class="xmark">✕ 월정액 면제 미적용</span>
+      <h3>월정액 유료 운영</h3>
+      <p>일본 서비스는 월정액 면제가 적용되지 않으며, 입점 시점부터 월정액이 발생합니다.</p>
+      <div class="price">월 100만원 / VAT 별도</div>
+    </div>
+    <div class="box">
+      <div class="tag">TH · US · CN · TW</div>
+      <h3>한시적 월정액 면제</h3>
+      <p>입점 시 월정액을 한시적으로 면제해드리며, 유료 전환 시 전환 1개월 전에 사전 고지합니다.</p>
+      <div class="price">면제 종료 후 월 100만원 / VAT 별도</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">혜택 2</div>
+  <h2>DB 150 도달까지 광고비 전액 환급</h2>
+  <p class="lead">입점한 신규 국가들의 종합 DB가 합산 150에 도달할 때까지, 발생한 CPV 광고비를 전액 환급해드립니다. 한국은 제외되며 월 1회 정산합니다. 일자별로 체크하며 DB 150 초과분은 환급 대상에서 제외됩니다.</p>
+  <div class="grid">
+    <div class="box stat"><div class="k">환급 범위</div><div class="v">DB 150까지 전액</div><div class="d">CPV 발생 시점 기준</div></div>
+    <div class="box stat"><div class="k">정산 주기</div><div class="v">월 1회</div><div class="d">일자별 발생분 기준</div></div>
+    <div class="box stat"><div class="k">락인 기간</div><div class="v">DB 150 달성 후 3개월</div><div class="d">퇴점 금지 · 이벤트 유지</div></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">혜택 3</div>
+  <h2>국가별 복붙 이벤트 무료 제작</h2>
+  <p class="lead">국가별로 수요는 높지만 공급이 부족한 시술 리스트는 담당 AM이 별도로 제공해드립니다. 국내 이벤트 이미지를 해당 국가 언어로 번역해 삽입하는 <b>복붙 방식으로만 제작 가능</b>하며, 국가별 별도 디자인 제작은 지원되지 않습니다.</p>
+  <div class="grid">
+    <div class="box stat"><div class="k">제작 방식</div><div class="v">복붙 이미지만 가능</div><div class="d">한국 이미지 기반 번역 삽입</div></div>
+    <div class="box stat"><div class="k">지원 수량</div><div class="v">국가당 최대 10개 지원</div><div class="d">강남언니 제작 지원 한도</div></div>
+    <div class="box stat"><div class="k">제작 소요</div><div class="v">최소 2~3주</div><div class="d">신청 후 일정 안내</div></div>
+  </div>
+  <div class="must">
+    <p><b>국가별 이벤트는 최소 10개씩 반드시 등록</b>해주셔야 합니다. 제작 지원 여부와 관계없이, 지원 범위를 넘거나 지원이 어려운 이벤트는 병원에서 자체 등록해주셔야 합니다. 10개 미만일 경우 언니가이드 가입과 인플루언서 지원이 어렵습니다.</p>
+    <p>국가별 수요 높은 시술 리스트는 10월 초에 전달드리겠습니다.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">혜택 4</div>
+  <h2>인플루언서 방문 지원</h2>
+  <div class="grid">
+    <div class="box">
+      <div class="tag">INFLUENCER</div>
+      <h3>오픈 초기 3개월 동안 월 1회 연결</h3>
+      <p>후기가 쌓이기 전 초기 노출을 만드는 데 가장 효과가 큰 지원입니다. <b>국가별 이벤트를 최소 10개 이상 등록하신 경우에만 진행</b>됩니다.</p>
+      <p style="margin-top:10px;font-size:13px">국가·시기에 따라 팔로워 1만 명 이하 인플루언서가 포함될 수도 있습니다.</p>
+    </div>
+  </div>
+  <div class="callout">
+    <h4>인플루언서 콘텐츠 제작 방식 — 반드시 확인해주세요</h4>
+    <p>콘텐츠는 <b>강남언니 콘텐츠 형식으로 제작</b>되며, <b>병원명 · 의사명 · 로고의 직접 노출은 제한적</b>입니다. 제작된 콘텐츠의 <b>2차 가공은 불가</b>하며, 병원에서 별도로 편집하거나 자체 채널용으로 재가공해 사용하실 수 없습니다.</p>
+    <p>촬영 방향에 대한 의견은 주셔도 괜찮지만, 병원 측 요청이 과도할 경우 콘텐츠 본래의 의도와 달라질 수 있습니다. <b>병원에서는 시술 협찬을 지원해주시고, 저희가 인플루언서를 연결해드리는 구조</b>로 이해해주시면 감사하겠습니다.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">KOS CRM</div>
+  <h2>KOS CRM 도입 안내</h2>
+  <div class="kos">
+    <p>KOS CRM은 우선 이번에는 도입하지 않으시는 것으로 정리했습니다.</p>
+    <p>추후 도입을 검토하시게 되면 편하게 문의 주십시오. 그 시점 기준으로 도입 조건을 다시 확인해 전달드리겠습니다.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">적용 조건</div>
+  <h2>아래 세 가지를 함께 진행해주셔야 적용됩니다</h2>
+  <ol class="steps">
+    <li><h3>강남언니 해외 5개국 전체 입점</h3><p>일본 · 태국 · 미국 · 중국 · 대만 전체 입점이 기본 조건입니다. 한국 이벤트 또한 동시에 운영해주셔야 하며, 중간에 한국 이벤트를 OFF하고 해외에만 노출하는 형태는 불가합니다.</p></li>
+    <li><h3>국가별 이벤트 최소 10개 등록</h3><p>5개국 전체 입점과 국가별 이벤트 10개 등록을 모두 충족하셔야 언니가이드 가입이 가능합니다. 현지에서 반응이 나오려면 다양한 셀렉션이 필요해 10개를 기준으로 안내드립니다.</p></li>
+    <li><h3>DB 150 달성 후 3개월 유지</h3><p>광고비 환급이 뒤따르는 조건으로, 종합 DB 150 달성 시점부터 3개월간 퇴점 금지와 이벤트 유지 조건이 적용됩니다.</p></li>
+  </ol>
+</section>
+
+<section style="border-bottom:0">
+  <div class="kicker">주의</div>
+  <h2>반드시 확인해주세요 — 혜택 환수 조건</h2>
+  <div class="warn">
+    <h3>아래 조건 미충족 시 혜택이 소급 취소될 수 있습니다</h3>
+    <ul>
+      <li>해외 입점 계약이 완료되지 않을 경우, 월정액 면제와 광고비 환급 혜택이 전부 소급 취소됩니다.</li>
+      <li>DB 150 달성 후 3개월 락인 기간 내 퇴점하거나 이벤트를 기준 미만으로 유지할 경우 혜택이 소급 취소됩니다.</li>
+      <li>한국 이벤트를 중단하고 해외 이벤트만 운영하실 경우에도 혜택이 소급 취소될 수 있습니다.</li>
+      <li>제작된 이벤트를 미등록하거나 3개월 내 비활성화할 경우 이벤트 제작 지원이 제한될 수 있습니다.</li>
+      <li>인플루언서 콘텐츠를 병원에서 2차 가공하거나 별도 채널에 재사용하실 경우, 이후 인플루언서 지원이 중단될 수 있습니다.</li>
+      <li>본 프로모션은 예외 한정 혜택으로, 조건 위반 시 사전 고지 없이 즉시 종료될 수 있습니다.</li>
+    </ul>
+  </div>
+</section>
+</div>
+
+<footer><div class="wrap">
+  문의 담당 <b>강남언니 영업팀 과장 임윤영</b>
+  <p class="copy">© 2026 강남언니 — 본 제안서는 내부 전용 자료입니다. 무단 배포를 금합니다.</p>
+</div></footer>
+
+</body>
+</html>
